@@ -1,1 +1,2 @@
 # hello-cloud-config
+This is a configuration source for [Hello Cloud project](https://github.com/tomekceszke/hello-cloud) - that demonstrates Spring Cloud capabilities in creating distributed web applications.
