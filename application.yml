@@ -5,7 +5,9 @@ eureka:
 
 spring:
   zipkin:
-    baseUrl: http://${DOCKER_HOST:192.168.99.100}:9411/
+    baseUrl: 192.168.99.100:9411
   sleuth:
+    enabled: true
     sampler:
-      probability: 1.0
+      percentage: 1.0
+      #probability: 1.0
